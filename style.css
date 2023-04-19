@@ -4,8 +4,7 @@ html{
 
 body {
     margin-left: 5%;
-    margin-right: 5%;
-    font-size: 14px;
+    margin-right: 5%;
 }
 
 h4{
@@ -31,8 +30,7 @@ container{
 
 .text{
     text-decoration: underline;
-    color: rgb(61, 61, 61); 
-    font-size: 14px;
+    color: rgb(61, 61, 61);
 }
 
 .dropdown, #id_no, #id_no_7{
