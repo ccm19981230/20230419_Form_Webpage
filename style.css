@@ -49,7 +49,7 @@ container{
 }
 
 #dose, #id_type{
-    width: 30%; 
+    width: 200px; 
 }
 
 #day, #month, #third_vac_day, #third_vac_month{
