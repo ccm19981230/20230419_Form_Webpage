@@ -12,10 +12,6 @@ h4{
     font-size: 17px; 
 }
 
-p, label, .darkred{
-    font-size: 14px; 
-}
-
 container{
     display: flex;
 }
