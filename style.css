@@ -1,0 +1,113 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p, label, .darkred{
+    font-size: 14px; 
+}
+
+container{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+}
+
+.left_column{
+    width: 30%;
+}
+
+.right_column{
+    width: 60%;
+}
+
+.text{
+    text-decoration: underline;
+    color: rgb(61, 61, 61); 
+}
+
+.dropdown, #id_no, #id_no_7{
+    font-size: 14px;
+    padding: 3px;
+}
+
+#id_no_7{
+    width: 15px;
+}
+
+#dose, #id_type{
+    width: 30%; 
+}
+
+#day, #month, #third_vac_day, #third_vac_month{
+    width: 12%; 
+}
+
+#year, #third_vac_year{
+    width: 7%; 
+}
+
+.darkred{
+    color: darkred;
+}
+
+.red{
+    color: red;
+}
+
+.brown{
+    color:rgb(85, 64, 44);
+}
+
+.no_ul{
+    text-decoration: none; 
+}
+
+#column_1_7_2{
+    border: 1px solid lightgray;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#column_1_8_2{
+    border: 1px solid lightgray;
+    background-color:rgb(255, 255, 242);
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.radio_lines{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#biontech_cb_line{
+    display: flex; 
+}
+
+#form_last_row, footer{
+    display: flex;
+    justify-content: center;
+}
+
+#summit{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    font-size: 14px;
+    background-color: rgb(233, 255, 189);
+    color: darkgreen;
+}
+
+footer{
+    font-size: 10px;
+}
