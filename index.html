@@ -42,7 +42,7 @@
                             <label for="id_type">Identity document type: </label>
                         </div>
                         <div class="column right_column">
-                            <select id="id_type" class="dropdown" name="id_type">
+                            <select id="id_type" class="dropdown" name="id_type" required>
                                 <option>Hong Kong Identity Card</option>
                                 <option>Hong Kong Passport</option>
                                 <option>Hong Kong Birth Certificate</option>
@@ -59,7 +59,7 @@
                         </div>
                         <div class="column right_column">
                             <div id="id_no_parent">
-                                <input id="id_no" name="id_no" type="text" placeholder="e.g.: A123456">(<input id="id_no_7" name="id_no_7" type="text" placeholder="7">)
+                                <input id="id_no" name="id_no" type="text" placeholder="e.g.: A123456" required minlength="7" maxlength="7">(<input id="id_no_7" name="id_no_7" type="text" placeholder="7" required minlength="1" maxlength="1">)
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                                 <option value="1">1st</option>
                                 <option value="31">31th</option>
                             </select>
-                            <select id="month" class="dropdown" name="month">
+                            <select id="month" class="dropdown" name="month" required>
                                 <option disabled selected>Month</option>
                                 <option value="1">January</option>
                                 <option value="12">December</option>
@@ -95,17 +95,17 @@
                             <label for="third_vac_day">The date of your third dose vaccination: </label>
                         </div>
                         <div class="column right_column">
-                            <select id="third_vac_day" class="dropdown" name="third_vac_day">
+                            <select id="third_vac_day" class="dropdown" name="third_vac_day" required>
                                 <option disabled selected>Day</option>
                                 <option value="1">1st</option>
                                 <option value="31">31th</option>
                             </select>
-                            <select id="third_vac_month" class="dropdown" name="third_vac_month">
+                            <select id="third_vac_month" class="dropdown" name="third_vac_month" required>
                                 <option disabled selected>Month</option>
                                 <option value="1">January</option>
                                 <option value="12">December</option>
                             </select>
-                            <select id="third_vac_year" class="dropdown" name="third_vac_year">
+                            <select id="third_vac_year" class="dropdown" name="third_vac_year" required>
                                 <option disabled selected>Year</option>
                                 <option value="1">2023</option>
                                 <option value="12">1900</option>
@@ -126,7 +126,7 @@
                                 <p>Interval between 3rd and 4rd dose is at least 90 days</p>
                             </u>
                             <div class="radio_lines">
-                                <input id="im_indi" name="eli_gp" type="radio">
+                                <input id="im_indi" name="eli_gp" type="radio" required>
                                 <label for="im_indi">Immunocompromised individuals (Immunocompromised medical certificte required as proof)</label>
                             </div>
                             <div class="radio_lines">
@@ -150,7 +150,7 @@
                                 COVID-19 Infection" <a href="#" class="darkred no_ul">Here</a> for the vaccination arrangement before booking. </p>
                             <p><u>Interval between 3rd and 4th dose is at least 90 days</u></p>
                             <div class="radio_lines">
-                                <input id="a" name="covid_cover" type="radio">
+                                <input id="a" name="covid_cover" type="radio" required>
                                 <label for="a">Recovered persons aged 18 years or above, who belong to immunocompromised individuals (at least 90 days after recovery) (medical certificte required as proof)</label>
                             </div>
                             <p><u>Interval between 3rd and 4th dose is at least 180 days</u></p>
@@ -169,7 +169,7 @@
                         </div>
                         <div class="column right_column">
                             <div class="radio_lines">
-                                <input type="radio" id="biontech_c" name="vaccine">
+                                <input type="radio" id="biontech_c" name="vaccine" required>
                                 <label for="biontech_c">BioNTech/Fosun [Comirnaty](Aged 6 months or Above Only<span class="red">*</span>)</label>
                             </div>
                             <div class="radio_lines">
