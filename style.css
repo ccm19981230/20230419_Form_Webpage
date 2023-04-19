@@ -31,6 +31,7 @@ container{
 .text{
     text-decoration: underline;
     color: rgb(61, 61, 61); 
+    font-size: 14px;
 }
 
 .dropdown, #id_no, #id_no_7{
@@ -47,11 +48,11 @@ container{
 }
 
 #day, #month, #third_vac_day, #third_vac_month{
-    width: 12%; 
+    width: 130px; 
 }
 
 #year, #third_vac_year{
-    width: 10%; 
+    width: 100px; 
 }
 
 .darkred{
