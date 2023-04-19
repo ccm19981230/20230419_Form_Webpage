@@ -2,7 +2,7 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body, footer {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 14px;
@@ -115,5 +115,5 @@ container{
 }
 
 footer{
-    font-size: 10px;
+    font-size: 10px !important;
 }
